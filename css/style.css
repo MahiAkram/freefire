@@ -1,0 +1,358 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ ul{
+     text-decoration: none;
+ }
+
+ a{
+     text-decoration: none;
+ }
+
+ img{
+     vertical-align: middle;
+ }
+
+ .clr{
+     clear: both;
+ }
+.mt-30{
+    margin-top: 30px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+body{
+    background: #000;
+}
+
+nav{
+    background: #212121;
+}
+ .navbar-brand{
+     width: 240px;
+ }
+
+ .nav-item{
+     color: #fff;
+     font-size: 15px;
+     font-weight: 600;
+     text-transform: uppercase;
+     margin-right: 15px;
+     position: relative;
+ }
+ .nav-item::after{
+     content: '';
+     width: 0%;
+     height: 1px;
+     background: #f26f35;
+     position: absolute;
+     bottom: 0;
+     left: 0px;
+     transition: all linear 0.3s;
+ }
+ .nav-item:hover:after{
+    width: 100%;
+    transition: all linear 0.3s;
+ }
+ .nav-item a{
+     color: #fff;
+ }
+ .nav-item:hover a{
+     color: #f26f35;
+ }
+
+ .btn-outline-success{
+     color: #fff;
+     border-color: #fff !important;
+     transition: all linear 0.3s;
+ }
+ .btn-outline-success:hover{
+    color: #000 !important;
+    background: #fff !important;
+ }
+
+
+
+ #banner{
+     background: #000;
+ }
+
+
+ #texts h1{
+    color: #fff;
+    margin-top: 45px;
+ }
+ #texts h2{
+    color: #fff;
+    margin-top: 25px;
+ }
+ #texts h2 span{
+    color: #ffab00;
+ }
+ #texts h2{
+    color: #fff;
+ }
+
+ #texts h3{
+     font-size: 16px;
+    color: #fff;
+    margin-top: 10px;
+ }
+ #texts ul {
+     padding: 0 !important;
+     margin-top: 15px;
+ }
+ #texts ul li{
+    color: #fff;
+    list-style: none;
+ }
+
+
+
+
+
+
+
+ #form1{
+     margin-top: 15px;
+ }
+
+ #form1 .over-1{
+     background: #fff;
+     border-radius: 5px;
+     position: relative;
+ }
+ #form1 label{
+     padding-top: 50px;
+     font-size: 25px;
+     padding-bottom: 30px;
+ }
+ #form1 input{
+     margin-bottom: 20px;
+     width: 95%;
+     margin: 0 auto;
+ }
+ #form1 .form-text{
+     font-size: 15px;
+ }
+ #form1 button{
+     width: 49%;
+     background: #f24c00;
+     color: #fff;
+     padding: 10px 0;
+     border: none;
+     border-radius: 5px;
+     outline: 0;
+     margin-top: 25px;
+     margin-bottom: 20px;
+ }
+ #form1 .but-2{
+     background: #5a5fde;
+ }
+
+ #form1 .over-1 .point{
+     width: 50px;
+     height: 50px;
+     background: #5a5fde;
+     border-radius: 50%;
+     position: absolute;
+        top: -16px;
+        left: -12px;
+ }
+ #form1 .over-1 .point p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #form2{
+     margin-top: 30px;
+ }
+
+ #form2 .over-1{
+     background: #fff;
+     border-radius: 5px;
+     position: relative;
+ }
+ #form2 label{
+     padding-top: 50px;
+     font-size: 25px;
+     padding-bottom: 30px;
+ }
+ #form2 input{
+     margin-bottom: 20px;
+     width: 95%;
+     margin: 0 auto;
+ }
+ #form2 .form-text{
+     font-size: 15px;
+ }
+ #form2 button{
+     width: 49%;
+     background: #f24c00;
+     color: #fff;
+     padding: 10px 0;
+     border: none;
+     border-radius: 5px;
+     outline: 0;
+     margin-top: 25px;
+     margin-bottom: 20px;
+ }
+ #form2 .but-2{
+     background: #5a5fde;
+ }
+
+ #form2 .over-1 .point{
+     width: 50px;
+     height: 50px;
+     background: #5a5fde;
+     border-radius: 50%;
+     position: absolute;
+        top: -16px;
+        left: -12px;
+ }
+ #form2 .over-1 .point p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+ }
+ #form2 .over1 .charter ul{
+     padding: 0 !important;
+     margin: 0 auto;
+
+ }
+ #form2 .over1 .charter ul li{
+     list-style: none !important;
+ }
+ #form2 li{
+     list-style: none;
+     list-style-type: none;
+     width: 290px;
+     height: 30px;
+     border: 1px solid #5555;
+     border-radius: 5px;
+     text-transform: capitalize;
+     color: black;
+     float: left;
+     margin-left: 15px;
+     margin-bottom: 5px;
+ }
+ #form2 li:last-child{
+     margin-left: 472px;
+     margin-top: 10px;
+ }
+ #form2 li a{
+     color: #000;
+ }
+ #form2 button{
+     margin-top: 40px;
+     width: 95%;
+     background: rgb(177, 177, 177);
+     text-transform: uppercase;
+     transition: all linear 0.3s;
+ }
+ #form2 button:hover{
+     background: #f24c00;
+ }
+
+
+ #form3{
+     margin-top: 30px;
+ }
+ #form3 .sub-f{
+     background: #fff;
+     border-radius: 5px;
+     position: relative;
+ }
+ #form3 .sub-f .heading{
+     padding-top: 25px;
+ }
+ #form3 .sub-f input{
+     width: 95%;
+     margin: 0 auto;
+ }
+ #form3 .sub-f label{
+     padding-left: 35px;
+ }
+
+ #form3 .sub-f button{
+    width: 95%;
+    background: #5a5fde;
+    color: #fff;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    outline: 0;
+    margin: 20px 32px;
+ }
+ #form3 .sub-f .point{
+    width: 50px;
+    height: 50px;
+    background: #5a5fde;
+    border-radius: 50%;
+    position: absolute;
+       top: -16px;
+       left: -12px;
+}
+#form3 .sub-f .point p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+ }
+
+
+
+ #footer{
+    background: #212121;
+    margin-top: 80px;
+    padding-bottom: 30px;
+ }
+ #footer .footer-item{
+     padding-top: 40px;
+ }
+ #footer .footer-item .footer-header h4{
+     font-size: 20px;
+     font-weight: 600;
+     color: #fff;
+     text-transform: capitalize;
+ }
+ #footer .footer-item .footer-content ul{
+     margin-top: 30px;
+ }
+ #footer .footer-item .footer-content ul li a{
+    color: #fff;
+ }
+
+ #footer .footer-item .footer-content ul li a i{
+     font-size: 30px;
+     margin-bottom: 30px;
+ }
+
+
+ #last-part{
+     background: #1b1b1b;
+ }
+ #last-part p{
+     color: #fff;
+     padding-top: 15px;
+ }
